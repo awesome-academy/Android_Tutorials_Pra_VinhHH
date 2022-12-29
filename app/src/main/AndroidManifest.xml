@@ -10,13 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Structure_Android">
         <activity
+<<<<<<< HEAD
             android:name=".ex_slide11.RecyclerViewExActivity"
+=======
+            android:name=".ex_slide12.AsyncTaskEx"
+>>>>>>> eb87238 (up code async exercise (chua xong))
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ex_slide11.RecyclerViewEx"
+            android:exported="true">
+
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

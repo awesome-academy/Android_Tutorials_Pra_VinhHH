@@ -63,8 +63,16 @@
     <string name="top_stories">These are the top stories:</string>
     <string name="tech_news">Tech news you can use</string>
     <string name="cooking_tips">Cooking tips</string>
+<<<<<<< HEAD
     <string name="stories">Stories</string>
     <string name="tech">Tech</string>
     <string name="cooking">Cooking</string>
     <string name="click">Click</string>
+=======
+    <string name="click">Click!</string>
+    <string name="word">Word</string>
+    <string name="napping">Napping</string>
+    <string name="awake">Awake at least after sleeping for 900 milliseconds</string>
+    <string name="start_task">Start Task</string>
+>>>>>>> eb87238 (up code async exercise (chua xong))
 </resources>
