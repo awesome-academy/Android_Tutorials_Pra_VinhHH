@@ -2,20 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sun.android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Structure_Android">
+        android:theme="@style/Theme.Structure_Android" >
         <activity
-<<<<<<< HEAD
-            android:name=".ex_slide11.RecyclerViewExActivity"
-=======
-            android:name=".ex_slide12.AsyncTaskEx"
->>>>>>> eb87238 (up code async exercise (chua xong))
-            android:exported="true">
+            android:name=".ex_slide14.BroadCastExActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,11 +24,23 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <receiver
+            android:name=".ex_slide14.CustomBroadcasts"
+            android:enabled="true"
+            android:exported="true" /> <!-- <activity -->
+        <activity
+            android:name=".ex_slide12.AsyncTaskEx"
+            android:exported="true" >
+
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".ex_slide11.RecyclerViewEx"
-            android:exported="true">
-
-
+            android:exported="true" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

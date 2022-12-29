@@ -63,16 +63,20 @@
     <string name="top_stories">These are the top stories:</string>
     <string name="tech_news">Tech news you can use</string>
     <string name="cooking_tips">Cooking tips</string>
-<<<<<<< HEAD
     <string name="stories">Stories</string>
     <string name="tech">Tech</string>
     <string name="cooking">Cooking</string>
-    <string name="click">Click</string>
-=======
     <string name="click">Click!</string>
     <string name="word">Word</string>
     <string name="napping">Napping</string>
     <string name="awake">Awake at least after sleeping for 900 milliseconds</string>
     <string name="start_task">Start Task</string>
->>>>>>> eb87238 (up code async exercise (chua xong))
+    <string name="button_enter_book_name">Search Books</string>
+    <string name="send_custom_broadcast">Send Custom Broadcast</string>
+    <string name="text_view_title_book_name">Enter a book name, or part of a book name, or just some text from a book to find the full book title and who wrote the book!</string>
+    <string name="unknown_intent_action">unknown intent action</string>
+    <string name="power_connect">Power connected!</string>
+    <string name="power_disconnect">Power disconnected!</string>
+    <string name="custom_broadcast_received">Custom Broadcast Received</string>
+    <string name="action_custom_broadcast">.ACTION_CUSTOM_BROADCAST</string>
 </resources>
